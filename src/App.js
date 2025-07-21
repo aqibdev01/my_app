@@ -6,9 +6,9 @@ import TextArea from "./components/TextArea";
 import Alert from "./components/Alert";
 import {
   Route,
-  index,
-  layout,
-  prefix,
+  // index,
+  // layout,
+  // prefix,
   BrowserRouter,
   Routes,
 } from "react-router-dom";

@@ -113,7 +113,7 @@ export default function TextArea(props) {
         </div>
         <div class="container my-3">
           <h1>Text Summary</h1>
-          <p>Number of words {text.split(" ").length}</p>
+          <p>Number of words {text.split(/s+/).filter((element)=>{return element.length !== 0}).length}</p>
           <p>Number of characters {text.length}</p>
         </div>
         <div class="container">
